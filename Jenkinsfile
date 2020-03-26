@@ -12,7 +12,7 @@ pipeline {
                             git config --local user.email "bot@github.com"
                             git add test.txt
                             git commit -m "added test.txt"
-                            git push git@github.com:wololock/foobar.git master
+                            git push -u origin master
                         """
                     }
                 }
